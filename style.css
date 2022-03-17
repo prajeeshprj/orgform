@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%; 
+
+}
+body{
+     background-color :rgb(130, 102, 173); 
+    display: grid;
+    place-items: center;
+}
+
+ .sign-up{
+    margin: auto;
+    max-width: 500px;
+    width: 100%;
+    background-color: rgb(100, 30, 30);
+    padding: 10px;
+    box-shadow: 5px 6px 3px 2px #161414;
+    color: rgb(214, 66, 86);
+}
+h1{
+    text-align: center;
+    color: #f1efef;
+}
+.form-container{
+    padding-top: 10px;
+    background-color:aqua(26, 13, 13);
+}
+.form-field{
+    display: grid;
+    padding: 5px 50px;
+}
+.form-field input{
+    height: 30px;
+    padding: 10px;
+    border:solid 1px black ;
+}
+label{
+    margin-bottom: 5px;
+    color: rgb(248, 244, 244);
+}
+.submission-section{
+    padding-top: 25px;
+    display: grid;
+}
+.submission-section button{
+    height: 40px;
+    background-color: rgb(21, 255, 0) ;
+    font-size: 25px;
+    color:rgb(14, 13, 13) ;
+}
+.error-message{
+    color: red;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+} 
